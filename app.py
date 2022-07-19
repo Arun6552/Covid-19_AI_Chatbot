@@ -5,10 +5,10 @@ import  os
 import  sys
 
 #Custom module Import
-from chatbot.exception import ChatbotException
+# from chatbot.exception import ChatbotException
 # from chatbot.logger import logging
-from chatbot.api_request import Api
-from chatbot.dialogflow_response import webhooks
+# from chatbot.api_request import Api
+# from chatbot.dialogflow_response import webhooks
 
 app = Flask(__name__)
 
@@ -17,12 +17,12 @@ app = Flask(__name__)
 def index():
     return "Hello world!"
 
-@app.route('/results', methods=['GET','POST'])
-@cross_origin()
-def results():   
-    a =webhooks()
-    # logging.info("Running Successful!!!")
-    return a
+# @app.route('/results', methods=['GET','POST'])
+# @cross_origin()
+# def results():   
+#     a =webhooks()
+#     # logging.info("Running Successful!!!")
+#     return a
     
 
 if __name__ == '__main__':
