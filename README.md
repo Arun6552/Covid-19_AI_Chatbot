@@ -11,5 +11,5 @@
 
 
 ```
-Step 1. Clone the Git clone 
+Deployment link :- https://covid-19-ai-bot.herokuapp.com/ 
 ```
