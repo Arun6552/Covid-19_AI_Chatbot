@@ -10,6 +10,9 @@
 6. [Rapidapi](https://rapidapi.com/)
 
 
+[Deployment link](https://covid-19-ai-bot.herokuapp.com/)
+
+
 ```
 Deployment link :- https://covid-19-ai-bot.herokuapp.com/ 
 ```
