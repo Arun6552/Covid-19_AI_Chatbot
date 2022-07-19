@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<body>
+    <section class="header">
+        <nav>
+            <a href="">  <h2 class="header-title">Covid-19 AI Chatbot</h2></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="https://github.com/Arun6552/Covid-19_AI_Chatbot">About</a></li>
+                    <li><a href="https://covid19.who.int/">WHO</a></li> 
+                    <li><a href="https://www.who.int/health-topics/coronavirus">Covid-19 News</a></li>
+                    <li><a href="https://github.com/Arun6552/">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <marquee  width="700%" direction="right" height="100px" class="anim">
+            Wear Mask😷😷😷 Stay Safe🧑‍⚕️ Stay at Home🏡🏡  !!! &nbsp &nbsp &nbsp &nbsp  Wear Mask😷😷😷 Stay Safe🧑‍⚕️ Stay at Home🏡🏡  !!! &nbsp &nbsp &nbsp&nbsp    Wear Mask 😷😷😷Stay Safe🧑‍⚕️ Stay at Home🏡🏡!!!
+        </marquee>
+        
+        <div class="text-box">
+            <h1>Hi, Greeting🙏 I am Covid-19 AI Bot🧑‍🚀</h1><br>
+            <h6>Ask me anything about Covid 19.I'm currently available in Telegram.&nbsp You Connect me on Telegram 👇👇👇</h6><br>
+            <a href="https://t.me/arun_covid_19_ai_bot" class="hero-btn">Telegram <i class="fa-brands fa-telegram"  style="font-size:20px;color:blue"></i>🧑‍🚀</a>
+        </div>
+
+    </section>
+
+
+<!-- ----------------------------------------------------------------Javascript for toogle Menu---------------------------------------------------------------- -->
+    <script>
+        var navLinks =document.getElementById("navLinks");
+        function ShowMenu(){
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";   
+
+        } 
+    </script>
+  </body>
+{% endblock %}
