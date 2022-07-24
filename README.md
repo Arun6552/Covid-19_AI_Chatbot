@@ -19,33 +19,35 @@ Deployment link :- https://covid-19-ai-bot.herokuapp.com/
 ```
 UI:
 
-![](img/covid-19_ss1.jpg)
+
 ```
+![](img/covid-19_ss1.jpg)
 
 ```
 Bot-Conversation:
 
+```
+
 ![](img/chat_conv-ss2.png)
 
 ![](img/chat_conv-ss3.png)
-```
 
 ```
 Databases:
 
+
+```
 ![](img/db-ss4.png)
 
 ![](img/chat-ss5.png)
 
 ![](img/cases-ss6.png)
-```
 
 ```
-Email:
 
+Bot-Email:
+
+```
 ![](img/email-ss3.png)
-```
 
-```
-
-```
+<h4>Thank You</h4>
