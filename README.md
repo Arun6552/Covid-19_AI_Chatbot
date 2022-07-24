@@ -17,7 +17,13 @@
 Deployment link :- https://covid-19-ai-bot.herokuapp.com/ 
 ```
 ```
-UI:
+Bot-Feature:
+1. Show the statistics by Country wise,India State
+2. Report Distric Wise, Map wises cases
+3. Covid-19 FAQ, Help Desk
+4. Save the Conversation to Databases
+5. Send an Email with Detailed Report
+6. Small Talk and Many More
 
 
 ```
