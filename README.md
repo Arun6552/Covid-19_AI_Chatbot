@@ -16,3 +16,4 @@
 ```
 Deployment link :- https://covid-19-ai-bot.herokuapp.com/ 
 ```
+[img](covid-19_ss1.jpg)
